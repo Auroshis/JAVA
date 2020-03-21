@@ -24,9 +24,10 @@ class sliceandrotate{
         //we have to rotate right the array by k elements
         // i thought of slicing  and merging, but the below algo is better
         //the answer is same for both left and right shift
-        reverse(arr, 0, arr.length-1);
-        reverse(arr, 0, k-1);
+        reverse(arr, 0, arr.length-1);//for left shift you don't have to reverse the entire array i.e this step is not required
+        reverse(arr, 0, k-1); 
         reverse(arr, k, arr.length-1);
+         reverse(arr, 0, arr.length-1);//for left shift you have to reverse at last
         return arr;
     }
     static void printarray(int arr[]){

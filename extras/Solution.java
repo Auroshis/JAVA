@@ -1,56 +1,35 @@
 import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
 import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
 
 public class Solution {
 
-    static String isBalanced(String s) {
-    s.toCharArray();//converting to charracter array 
-    int start = 0;
-    int end = s.length()-1;
-    int f = 0;
-    while(end>start){
-        if(s.charAt(start)==s.charAt(end)){
-            continue;
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Stack<Integer> list = new Stack<Integer>();
+        Stack<Integer> Tracklist = new Stack<Integer>();
+        Scanner in = new Scanner(System.in);
+        int queries = in.nextInt();
+        int indicator = in.nextInt();
+        if(indicator == 1){
+            int x = in.nextInt();
+            list.push(x);
+            if(list.size()==1){
+                Tracklist.push(x);
+                return;
+            }
+            if(x>Tracklist.peek()){
+                Tracklist.push(x);
+            }
+            else{
+                Tracklist.push(Tracklist.peek());
+            }
         }
-        else{
-            f = 1;
+        else if(indicator == 2){
+            list.pop();
+            Tracklist.pop();
         }
-        System.out.println(s.charAt(start)+s.charAt(end));
-        start++;
-        end--;
-    }
-        if(f==1){
-            return "NO";
-        } 
-        else{
-            return "YES";
+        else if(indicator == 3){
+            System.out.println(Tracklist.peek());
         }
-    }
-
-    private static final Scanner scanner = new Scanner(System.in);
-
-    public static void main(String[] args) throws IOException {
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
-
-        int t = scanner.nextInt();
-        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
-
-        for (int tItr = 0; tItr < t; tItr++) {
-            String s = scanner.nextLine();
-
-            String result = isBalanced(s);
-
-            bufferedWriter.write(result);
-            bufferedWriter.newLine();
-        }
-
-        bufferedWriter.close();
-
-        scanner.close();
     }
 }

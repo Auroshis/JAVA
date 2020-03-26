@@ -27,7 +27,7 @@ class sliceandrotate{
         reverse(arr, 0, arr.length-1);//for left shift you don't have to reverse the entire array i.e this step is not required
         reverse(arr, 0, k-1); 
         reverse(arr, k, arr.length-1);
-         reverse(arr, 0, arr.length-1);//for left shift you have to reverse at last
+        //reverse(arr, 0, arr.length-1);//for left shift you have to reverse at last
         return arr;
     }
     static void printarray(int arr[]){

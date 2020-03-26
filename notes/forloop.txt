@@ -1,0 +1,2 @@
+1)preincrement the iteration variable [for(int i = 0 ; i<n; ++i)] for loop makes the execution significantly faster 
+than post incrementing the iteration variable.

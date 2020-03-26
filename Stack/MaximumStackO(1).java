@@ -55,3 +55,5 @@ public static void main(String[] args)
 	System.out.println(s.getMax()); 
 } 
 } 
+Time complexity -O(1)
+space complexity - O(n)

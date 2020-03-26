@@ -1,3 +1,16 @@
 1)try to minimise the number of variables use . ex- list.add(scanner.nextInt()), here you don't have to use another variable 
 to take input.
 2)while searching something in any data structure, use try catch block for the numbers not found to avoid errors.
+3)always choose which data structure to use like for insertion deletion always use Linked List.
+4)Inbuilt LinkedList class object cannot be indexed, you cannot define it's size like ArrayList.
+LinkedList<Integer> list = new LinkedList<Integer>();
+ArrayList<integer> list = new ArrayList<Integer>(n);
+5)taking input for 'int' -- scanner.nextInt();
+taking input for 'String' -- scanner.next();
+6)Convert the String into Character array using String.toCharArray() method.
+To access Character at the specific index in an character array -- s.charAt(index)
+7)for getting length of array -- arr.length
+for getting length of String -- s.length()
+8)when you write multiple if statements without else if ladder then don't put a 'else' case as if the
+1st case is not satisfied then it will go to else part directly, though there are other parts.
+9)It is preferavle not to write any code after retrun statement as it will show unreachable error.

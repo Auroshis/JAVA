@@ -12,17 +12,8 @@ public class Test{
         while(end>start){
             System.out.println(s.charAt(start)+" start");
             System.out.println(s.charAt(end)+" end");
-            if(s.charAt(start)=='{' && s.charAt(end)=='}'){
-                f = 1;
-               
-            }
-            else if(s.charAt(start)=='(' && s.charAt(end)==')'){
-                f = 1;
-                
-           }
-           else if(s.charAt(start)=='[' && s.charAt(end)==']'){
-                f = 1;
-                
+            if(s.charAt(start)==s.charAt(end)){
+                 f = 1;
             }
             else{
                 f=0;
@@ -33,10 +24,10 @@ public class Test{
         }
         System.out.println(f);
         if(f==0){
-            System.out.println("NO");
+            return "NO";
         }
         else{
-            System.out.println("YES");
+            return "YES";
         }
     }
 }

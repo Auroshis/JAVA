@@ -58,3 +58,4 @@ class InsertionSort {
 		printArray(arr); 
 	} 
 } 
+//why do we preincrement the iteration variable 'i' in the for loop.

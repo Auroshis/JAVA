@@ -14,3 +14,5 @@ for getting length of String -- s.length()
 8)when you write multiple if statements without else if ladder then don't put a 'else' case as if the
 1st case is not satisfied then it will go to else part directly, though there are other parts.
 9)It is preferavle not to write any code after retrun statement as it will show unreachable error.
+10)while(n>0),n--
+11)you can make array/list of arrays,integers,objects,etc.

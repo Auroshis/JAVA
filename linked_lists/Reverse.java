@@ -1,4 +1,5 @@
 // Java program for reversing the linked list 
+//this code works for both doubly as well as singly linked list
 
 class LinkedList { 
 
@@ -20,7 +21,7 @@ class LinkedList {
 	Node reverse(Node node) 
 	{ 
 		Node prev = null; 
-		Node current = node; 
+		Node current = node; //node is the head of the linked list
 		Node next = null; 
 		while (current != null) { 
 			next = current.next; 

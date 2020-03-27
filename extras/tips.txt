@@ -20,4 +20,5 @@ for getting length of String -- s.length()
 11)you can make array/list of arrays,integers,objects,etc.
 
 27-03-2020
-1)
+1)always consider corner cases i.e, in case of linked lists take care of null pointer exception or 
+operation at head.

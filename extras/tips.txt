@@ -23,3 +23,5 @@ for getting length of String -- s.length()
 1)always consider corner cases i.e, in case of linked lists take care of null pointer exception or 
 operation at head.
 2)BufferReader is faster than Scanner.
+3)you can't interchange boolean for integer in java.ex if(true) and if(1) are not same.
+4)Arrays.sort()

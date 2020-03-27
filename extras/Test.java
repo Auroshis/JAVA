@@ -3,17 +3,12 @@ import java.util.*;
 
 public class Test{
 
-    public static int sum(Stack<Integer> s){
-        int su = 0;
-        for(int i =0;i<s.size();i++){
-             su = su + s.get(i);
-        }
-        return su;
-    }
     public static void main(String[] args){
-        Stack<Integer> s1 = new Stack<Integer>();
-        s1.add(1);
-        s1.add(8);
-        System.out.println(sum(s1));
+        String A = "acbd";
+        String B = "bcda";
+        char[] temp = A.toCharArray();
+        Arrays.sort(temp);
+        String ans = new String(temp);
+        System.out.println(ans);
     }
 }

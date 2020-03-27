@@ -1,3 +1,5 @@
+26-03-2020
+
 1)try to minimise the number of variables use . ex- list.add(scanner.nextInt()), here you don't have to use another variable 
 to take input.
 2)while searching something in any data structure, use try catch block for the numbers not found to avoid errors.
@@ -13,6 +15,9 @@ To access Character at the specific index in an character array -- s.charAt(inde
 for getting length of String -- s.length()
 8)when you write multiple if statements without else if ladder then don't put a 'else' case as if the
 1st case is not satisfied then it will go to else part directly, though there are other parts.
-9)It is preferavle not to write any code after retrun statement as it will show unreachable error.
+9)It is preferavle not to write any code after return statement as it will show unreachable error.
 10)while(n>0),n--
 11)you can make array/list of arrays,integers,objects,etc.
+
+27-03-2020
+1)

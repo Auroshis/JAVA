@@ -36,3 +36,5 @@ ex- while(!(sum1==sum2&&sum2==sum3&&sum3==sum1))
 29-03-2020
 1)string.substring(inclusive starting index, exclusive ending index)
 2)string1.compareTo(string2) -- >0(greater) -- 0(equal) -- <0(small)
+3)You can use two stacks to reverse any linear data structure.
+4)Head of the queue is the oldest element at the front.

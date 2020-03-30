@@ -45,3 +45,27 @@ Postorder traversal is also useful to get the postfix expression of an expressio
 
 The time complexity for all the traversals - O(n)
 auxilliary spacce complexity - O(1) or O(n) --if function calling stack is considered.
+
+30-03-2020
+1)height of a binary tree
+
+
+2) In level order traversal, we visit the nodes level by level from left to right.
+You only have to complete the function. For example:
+
+     1
+      \
+       2
+        \
+         5
+        /  \
+       3    6
+        \
+         4  
+For the above tree, the level order traversal is 1 -> 2 -> 5 -> 3 -> 6 -> 4.
+
+3)The poll() method of Queue Interface returns and removes the element at the front the container(Queue). It deletes the element in the container. 
+The method does not throws an exception when the Queue is empty, it returns null instead.
+
+4)A skewed binary tree is a type of binary tree in which all the nodes have only either one child or no child.
+it means the tree has either left children or right children throughout.

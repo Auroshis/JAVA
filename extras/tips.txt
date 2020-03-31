@@ -49,3 +49,5 @@ programs automatically shifts to main method.
 3)The variables declared inside static block are limited to scope of static block like local variable.
 if you want to use the same variables in other functions then use 'static' keyword and declare out side 
 static bloc. refer static initializer program.
+4)A class outside the file name class can't be static, it can be directly accessed inside main like any
+other class.

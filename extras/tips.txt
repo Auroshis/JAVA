@@ -39,4 +39,13 @@ ex- while(!(sum1==sum2&&sum2==sum3&&sum3==sum1))
 3)You can use two stacks to reverse any linear data structure.
 4)Head of the queue is the oldest element at the front.
 5)poll means removing the retriving n removing the head of the queue.
-6)Instead of looping ,use recursive approach to traverse trees.
+6)Instead of looping ,use recursive approach to traverse trees with return + 1;
+
+31-03-2022
+1)since the main block in static , you can use static block to initialise soemtihing ot take input 
+and check for Exceptions/error/corner cases before sending the data to main method for further usage.
+2)Actually you don't pass naything to main method from static block, after the static block is executed
+programs automatically shifts to main method.
+3)The variables declared inside static block are limited to scope of static block like local variable.
+if you want to use the same variables in other functions then use 'static' keyword and declare out side 
+static bloc. refer static initializer program.

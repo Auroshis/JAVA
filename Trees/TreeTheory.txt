@@ -74,3 +74,9 @@ it means the tree has either left children or right children throughout.
   i)left child data is always < root.
   ii)right child data is always > root.
   iii)no duplicate nodes allowed.
+
+1-4-2020
+1)Recursive methods take extra space O(h), 'h' is the height of the tree, due to recursive function
+call in the stack.
+2)Iterative methods may take the same time complexity as recursive methods but don't take extra O(h)
+space where 'h' is the height of the tree.

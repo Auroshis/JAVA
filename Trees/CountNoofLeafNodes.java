@@ -18,3 +18,18 @@ int countLeaves(Node node)
             return countLeaves(node.left)+countLeaves(node.right);
         }
     }
+
+//with little modification you can use the above code to find sum of leaf nodes
+public int SumofLeafNodes(Node root)
+    {   int sum = 0;
+        if(root == null){
+            return 0;
+        }
+        else if(root.left==null && root.right==null){
+            return root.data;
+        }
+        else{
+            return SumofLeafNodes(root.left)+SumofLeafNodes(root.right);
+        }
+        
+    }

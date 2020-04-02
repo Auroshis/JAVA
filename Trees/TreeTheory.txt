@@ -80,3 +80,7 @@ it means the tree has either left children or right children throughout.
 call in the stack.
 2)Iterative methods may take the same time complexity as recursive methods but don't take extra O(h)
 space where 'h' is the height of the tree.
+
+2-4-2020
+1)To recursively iterate inboth directions in tree printSingles(node.left); 
+		printSingles(node.right); 

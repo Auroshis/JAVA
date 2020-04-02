@@ -82,5 +82,10 @@ call in the stack.
 space where 'h' is the height of the tree.
 
 2-4-2020
+<<<<<<< HEAD
 1)if u are using recursion for iterating to count or find sum , then look for the increment or 
 decrement part.
+=======
+2)To recursively iterate inboth directions in tree printSingles(node.left); 
+		printSingles(node.right); 
+>>>>>>> 0a121ef8397cd2122b1bfefc1a49c99215e87e80

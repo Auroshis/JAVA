@@ -23,7 +23,7 @@ class Solution {
 	*/
 	public static int height(Node node) {
       	if (node == null) 
-            return -1; 
+            return -1; //this varies sometimes we start from 0and sometimes 1
         else 
         { 
             /* compute the depth of each subtree */

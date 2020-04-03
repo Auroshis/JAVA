@@ -44,10 +44,14 @@ ex- while(!(sum1==sum2&&sum2==sum3&&sum3==sum1))
 31-03-2022
 1)since the main block in static , you can use static block to initialise soemtihing ot take input 
 and check for Exceptions/error/corner cases before sending the data to main method for further usage.
-2)Actually you don't pass naything to main method from static block, after the static block is executed
+2)Actually you don't pass anything to main method from static block, after the static block is executed
 programs automatically shifts to main method.
 3)The variables declared inside static block are limited to scope of static block like local variable.
 if you want to use the same variables in other functions then use 'static' keyword and declare out side 
 static bloc. refer static initializer program.
 4)A class outside the file name class can't be static, it can be directly accessed inside main like any
 other class.
+ 
+3-4-2020
+1)if you have use elements in FIFO order use queue(level order traversal).
+2)If you to perform anything in LIFO order use Stack(reverse levelorder traversal).

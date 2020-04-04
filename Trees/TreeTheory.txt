@@ -34,6 +34,7 @@ A Tree node contains following parts.
 Uses of Inorder
 In case of binary search trees (BST), Inorder traversal gives nodes in non-decreasing order. 
 To get nodes of BST in non-increasing order, a variation of Inorder traversal where Inorder traversal s reversed can be used.
+This can be used to find median.
 
 Uses of Preorder
 Preorder traversal is used to create a copy of the tree.
@@ -89,3 +90,5 @@ decrement part.
 2)To recursively iterate inboth directions in tree printSingles(node.left); 
 		printSingles(node.right); 
 >>>>>>> 0a121ef8397cd2122b1bfefc1a49c99215e87e80
+
+3)balanced search tree and binary search tree are different.

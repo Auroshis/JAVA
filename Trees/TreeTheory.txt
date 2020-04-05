@@ -82,6 +82,7 @@ call in the stack.
 space where 'h' is the height of the tree.
 
 2-4-2020
+<<<<<<< HEAD
 1)if u are using recursion for iterating to count or find sum , then look for the increment or 
 decrement part.
 =======
@@ -90,4 +91,4 @@ decrement part.
 >>>>>>> 0a121ef8397cd2122b1bfefc1a49c99215e87e80
 
 5-4-2020
-1)inorder traversal of mirror tree is reverse of inorder traversal of original tree.
+1)inorder traversal of mirror tree is reverse of inorder traversal of original

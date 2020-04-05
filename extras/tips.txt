@@ -55,3 +55,7 @@ other class.
 3-4-2020
 1)if you have use elements in FIFO order use queue(level order traversal).
 2)If you to perform anything in LIFO order use Stack(reverse levelorder traversal).
+
+4-4-2020
+1)you can use queue to rotate left any any linear data structure. just like stack is used to reverse
+the order.YOU can simply poll and add in the same queue.

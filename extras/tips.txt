@@ -59,3 +59,9 @@ other class.
 4-4-2020
 1)you can use queue to rotate left any any linear data structure. just like stack is used to reverse
 the order.YOU can simply poll and add in the same queue.
+
+6-4-2020
+1)String.valueOf(char array) to convert char array to string.
+2)while iterating don't use , s.size() directly inside the loop as condition as it is updated in 
+every iteration. it's always better to maintain a count.
+3)to reduce time complexity use variables with for loop instead of (!s.isEmpty()) like functions.

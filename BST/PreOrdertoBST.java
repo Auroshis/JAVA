@@ -77,3 +77,4 @@ class BinaryTree {
 		tree.printInorder(root); 
 	} 
 } 
+//Time complexity -O(n)

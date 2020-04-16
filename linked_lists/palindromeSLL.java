@@ -1,6 +1,5 @@
 boolean isPalindrome(Node head) 
 {
-    boolean ans = true;
     Stack<Integer> s = new Stack<Integer>();
     Node current = head;Node c2 = head;
     while(current!=null){
@@ -16,3 +15,4 @@ boolean isPalindrome(Node head)
     }
     return true;
 }    
+//Time complexity -O(n+m) -- O(n) ,where is the size of the LL and m is the size of Stack.

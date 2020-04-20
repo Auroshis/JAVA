@@ -18,3 +18,5 @@ int diameter(Node root) {
     }
 
 //Time complexity - O(n*2)
+//Diameter is the length of longest path between two nodes.There can be more than one longest path.
+//Oviously, the path goes through root.

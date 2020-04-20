@@ -2,7 +2,6 @@ int binarySearch(int[] arr, int l, int r, int x){
         if(r>=l){
             int m = l+(r-l)/2;
             if(arr[m]==x){
-                //if(m==arr.length-1) return m;
                 while(m>0){
                     m--;
                     if(arr[m]==0) return m+1;

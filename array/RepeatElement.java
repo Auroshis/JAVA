@@ -73,14 +73,14 @@ class RepeatElement
 		for (i = 0; i < size; i++) 
 		{ 
 			if (count[arr[i]] > 1) { 
-				count[arr[i]]++;
+				count[arr[i]]++;//third visit or more
 			}
 			else if (count[arr[i]] == 1){
-				System.out.print(arr[i] + " ");
+				System.out.print(arr[i] + " ");//second time visit
 				count[arr[i]]++;
 			}
 			else
-				count[arr[i]]++; 
+				count[arr[i]]++; //first time visit
 		} 
 		for(i=0; i < size; i++){
 			 if(count[i] >= 1){
@@ -111,3 +111,5 @@ class RepeatElement
 	} 
 } 
 //Time - O(n) Space - O(n)
+//Limitation- the size of the array has to be as large as the largest number due to the index hashing approach
+ 

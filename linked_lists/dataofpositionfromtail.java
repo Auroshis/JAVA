@@ -72,7 +72,7 @@ public class Solution {
             head = head.next;
             length++;
         }
-        positionFromHead = length - positionFromTail - 1;
+        positionFromHead = length - positionFromTail - 1;//depends upon hwether you are counting from 0 or 1
         while(count!=positionFromHead){
             current = current.next;
             count++;

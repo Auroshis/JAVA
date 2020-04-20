@@ -76,7 +76,7 @@ public class Solution {
                     head = newNode;
                     return newNode;
                 }
-                else if(current.data>=data){
+                else if(current.data>=data){//inserting at the head
                     newNode.next = current;
                     current.prev = newNode;//left side linking
                     return newNode;

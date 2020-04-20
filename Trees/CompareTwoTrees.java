@@ -4,7 +4,7 @@ if (root1 == null && root2 == null)  return true;
     if (root1 == null || root2 == null) return false;  
   
     // Create an empty queues for simultaneous traversals  
-    Queue<Node > q1 = new LinkedList<Node> (); 
+    Queue<Node> q1 = new LinkedList<Node> (); 
     Queue<Node>  q2 = new LinkedList<Node> ();  
   
     // Enqueue Roots of trees in respective queues  
@@ -44,4 +44,5 @@ if (root1 == null && root2 == null)  return true;
         else if (n1.right != null || n2.right != null)  
             return false;  
     }  
+    return true;
   

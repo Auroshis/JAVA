@@ -10,7 +10,7 @@ int diameter(Node root) {
         
         return (Math.max(lheight + rheight+1,Math.max(ldiameter,rdiameter)));
     }
-    static int height(Node root){
+    static int height(Node root){//static is necessary
         if(root==null){
             return 0;
         }

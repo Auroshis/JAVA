@@ -1,0 +1,20 @@
+1)Quicksort is useful for arrays compared to mergesort till average time complexity i.e, O(nlogn) is
+considered as it does not require extra O(n) space. Allocating space also takes up time. hence only
+time complexity does not determines the time taken by the program to get executed.
+--
+where as
+--
+Quicksort does take barely O(nlogn) extra space.
+
+2)For linked lists merge sort is better as in quicksort indexing is required frequently which is 
+costly in linked lists as you have to traverse linearly
+--
+where as
+--
+Mergesort does not take up extra space in case of linked lists.
+
+
+extra 
+Quick Sort is also a cache friendly sorting algorithm as it has good locality of reference when used for arrays.
+
+Quick Sort is also tail recursive, therefore tail call optimizations is done.

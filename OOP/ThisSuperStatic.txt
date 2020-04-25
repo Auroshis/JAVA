@@ -1,0 +1,10 @@
+1) This keyword points to object(and it's members and methods ofcourse) of the immediate or current class.
+2) Super keyword points to the objects(members and methods) of the immediate parent i.e the (n-1th) parent 
+class.
+3) super() constructor executes the constructor of parent followed by child. The super() is added by default
+even if it's not in the code.
+4) static methods belong to a class not to any specific object. so you can access static members and
+methods directly using dot operator and does not need any object.
+5) this and super can not be used with static.
+6) static method can call only static methods inside the same class.
+7)  Static method can access only static data.

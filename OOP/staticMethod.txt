@@ -1,0 +1,5 @@
+1) Static blocks are executed while the class is loading that is prior to main function.
+Hence if we need to check any prerequisite or initialise something we use static block.
+2) Multiple static blocks in the same code is possible. They are executed in top to bottom order i.e, sequentially.
+3) till jdk 1.6 without main also static function can run but after that from 1.7 onwards main is 
+mandatory.

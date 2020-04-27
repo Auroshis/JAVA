@@ -68,3 +68,6 @@ every iteration. it's always better to maintain a count.
 
 9-4-2020
 1)Collections.frequency(ArrayList,object_to_find)..object can be character,integer,string.
+
+27-04-2020
+1)Declare new nodes like Node x = new Node(0); instead of Node x = null;This might create null pointer exception.
